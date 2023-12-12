@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location:modulos/contactos/index.php");
         exit();
     }else{
-        header("Location: index.php");
+        header("Location: login.php");
         exit();
     }
 }
